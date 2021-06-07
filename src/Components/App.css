@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+.home {
+  height: 100vh;
+  background-color: #e0e0e0;
+}
+
+.home img {
+  position: fixed;
+  top: 3rem;
+  left: 5rem;
+}
+
+.buttonRight {
+  transform: rotate(90deg);
+  position: fixed;
+  top: 40vh;
+  right: 2rem;
+  padding: 20px;
+  border: none;
+}
+
+.socialMenu {
+  position: fixed;
+  bottom: 3rem;
+  left: 9rem;
+  right: 9rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.socialMenu a {
+  text-decoration: none;
+  color: black;
+  margin: 0 2rem;
+}
+
+.socialMenu hr {
+  width: 96%;
+  background-color: black;
+}
